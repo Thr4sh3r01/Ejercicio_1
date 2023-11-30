@@ -9,7 +9,7 @@
     <header>
       <!--Primera página-->
       <section id="primeraPagina">
-        <img src="./imagenes/Mozza-Bar-Logo.png" />
+        <img src="./assets/Mozza-Bar-Logo.png"/>
         <nav>
           <ul>
             <li>Home</li>
@@ -146,7 +146,40 @@
       <!--Pagina Reserva-->
       <section id="paginaReservas">
         <strong><p>Reservas</p></strong>
-
+        <div class="formulario">
+            <Strong><p>Personas</p></Strong>
+            <select id="Personas" name="Personas" required>
+              <option value="1 Persona">1 Persona</option>
+              <option value="2 Persona">2 Persona</option>
+              <option value="3 Persona">3 Persona</option>
+              <option value="4 Persona">4 Persona</option>
+              <option value="5 Persona">5 Persona</option>
+              <option value="6 Persona">6 Persona</option>
+            </select>
+            <form>
+              <imput type="time"/>
+            </form>
+            <Strong><p>Seleccione una hora</p></Strong>            
+            <select id="hora" name="hora" required>
+                <option value="" disabled selected>Selecciona una hora</option>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>    
+            </select>
+            <Strong><p>Seleccione el tipo de mesa</p></Strong>            
+            <select id="tipoMesa" name="mesa" required>
+              <option value="" disabled selected>Seleccionar el tipo de mesa</option>
+              <option value="Mesa para 2">Mesa para 2</option>
+              <option value="Mesa para 3">Mesa para 3</option>
+              <option value="Mesa para 4">Mesa para 4</option>
+              <option value="Mesa para 5">Mesa para 5</option>
+              <option value="Mesa para 6">Mesa para 6</option>
+              <option value="Mesa para 7">Mesa para 7</option>
+              <option value="Mesa para 8">Mesa para 8</option>
+              <option value="Mesa para 9">Mesa para 9</option>
+            </select>
+        </div>
 
       </section>
     </main>
